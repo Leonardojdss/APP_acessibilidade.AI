@@ -101,7 +101,9 @@ if __name__ == "__main__":
                 # Reproduzir o áudio no Streamlit
                 audio_file = open(arquivo_audio, "rb")
                 audio_bytes = audio_file.read()
-                st.audio(audio_bytes, format="audio/mp3", autoplay=True)
+                st.audio(audio_bytes, format="audio/mp3", 
+                    #autoplay=True
+                    )
 
                 # Remover arquivo de áudio
                 os.remove(arquivo_audio)
@@ -154,7 +156,9 @@ if __name__ == "__main__":
                 # Reproduzir o áudio no Streamlit
                 audio_file = open(arquivo_audio, "rb")
                 audio_bytes = audio_file.read()
-                st.audio(audio_bytes, format="audio/mp3", autoplay=True)
+                st.audio(audio_bytes, format="audio/mp3", 
+                         #autoplay=True
+                         )
 
                 # Remover arquivo de áudio
                 os.remove(arquivo_audio)
@@ -210,7 +214,9 @@ if __name__ == "__main__":
                 # Reproduzir o áudio no Streamlit
                 audio_file = open(arquivo_audio, "rb")
                 audio_bytes = audio_file.read()
-                st.audio(audio_bytes, format="audio/mp3", autoplay=True)
+                st.audio(audio_bytes, format="audio/mp3", 
+                         #autoplay=True
+                         )
 
                 # Remover arquivo de áudio
                 os.remove(arquivo_audio)
