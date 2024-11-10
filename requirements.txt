@@ -1,0 +1,5 @@
+gTTS==2.5.3
+openai==1.54.3
+python-dotenv==1.0.1
+streamlit==1.40.0
+streamlit-option-menu==0.4.0
